@@ -4,9 +4,13 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>cvbajuberkah</RootNamespace>
-    <StartupObject>Sub Main</StartupObject>
+    <StartupObject>cvbajuberkah.FormMenuUtama</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="koneksi.vb" />
+  </ItemGroup>
 
   <ItemGroup>
     <Import Include="System.Data" />

@@ -14,6 +14,8 @@ Public Class FormLoginAdmin
 
     Private Sub Cancel_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Cancel.Click
         Me.Close()
+        Dim a = New FormMenuUtama
+        a.Show()
     End Sub
 
 End Class
