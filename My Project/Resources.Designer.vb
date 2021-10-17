@@ -83,6 +83,36 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property businessman_checking_packages_61103_631() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("businessman-checking-packages_61103-631", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property depositphotos_55039291_stock_illustration_business_customer_care_service_concept() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("depositphotos_55039291-stock-illustration-business-customer-care-service-concept", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property istockphoto_1212719772_612x612() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("istockphoto-1212719772-612x612", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property T_SHIRT() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("T-SHIRT", resourceCulture)

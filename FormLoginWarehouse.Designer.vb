@@ -1,4 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Naming", "CA1726")> _
 Partial Class FormLoginWarehouse
     Inherits System.Windows.Forms.Form
 
@@ -13,6 +14,13 @@ Partial Class FormLoginWarehouse
             MyBase.Dispose(disposing)
         End Try
     End Sub
+    Friend WithEvents LogoPictureBox As System.Windows.Forms.PictureBox
+    Friend WithEvents UsernameLabel As System.Windows.Forms.Label
+    Friend WithEvents PasswordLabel As System.Windows.Forms.Label
+    Friend WithEvents UsernameTextBox As System.Windows.Forms.TextBox
+    Friend WithEvents PasswordTextBox As System.Windows.Forms.TextBox
+    Friend WithEvents OK As System.Windows.Forms.Button
+    Friend WithEvents Cancel As System.Windows.Forms.Button
 
     'Required by the Windows Form Designer
     Private components As System.ComponentModel.IContainer
@@ -22,66 +30,101 @@ Partial Class FormLoginWarehouse
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.LogoPictureBox = New System.Windows.Forms.PictureBox()
+        Me.UsernameLabel = New System.Windows.Forms.Label()
+        Me.PasswordLabel = New System.Windows.Forms.Label()
+        Me.UsernameTextBox = New System.Windows.Forms.TextBox()
+        Me.PasswordTextBox = New System.Windows.Forms.TextBox()
+        Me.OK = New System.Windows.Forms.Button()
+        Me.Cancel = New System.Windows.Forms.Button()
+        CType(Me.LogoPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'Label1
+        'LogoPictureBox
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label1.Location = New System.Drawing.Point(88, 29)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(110, 30)
-        Me.Label1.TabIndex = 7
-        Me.Label1.Text = "CV. BAJU BERKAH " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Warehouse Login"
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.LogoPictureBox.Image = Global.cvbajuberkah.My.Resources.Resources.businessman_checking_packages_61103_631
+        Me.LogoPictureBox.Location = New System.Drawing.Point(0, 0)
+        Me.LogoPictureBox.Name = "LogoPictureBox"
+        Me.LogoPictureBox.Size = New System.Drawing.Size(165, 193)
+        Me.LogoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.LogoPictureBox.TabIndex = 0
+        Me.LogoPictureBox.TabStop = False
         '
-        'TextBox2
+        'UsernameLabel
         '
-        Me.TextBox2.Location = New System.Drawing.Point(66, 74)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(147, 23)
-        Me.TextBox2.TabIndex = 6
-        Me.TextBox2.Text = "Username"
+        Me.UsernameLabel.Location = New System.Drawing.Point(172, 24)
+        Me.UsernameLabel.Name = "UsernameLabel"
+        Me.UsernameLabel.Size = New System.Drawing.Size(220, 23)
+        Me.UsernameLabel.TabIndex = 0
+        Me.UsernameLabel.Text = "&User name"
+        Me.UsernameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'TextBox1
+        'PasswordLabel
         '
-        Me.TextBox1.Location = New System.Drawing.Point(66, 114)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(147, 23)
-        Me.TextBox1.TabIndex = 5
-        Me.TextBox1.Text = "Password"
+        Me.PasswordLabel.Location = New System.Drawing.Point(172, 81)
+        Me.PasswordLabel.Name = "PasswordLabel"
+        Me.PasswordLabel.Size = New System.Drawing.Size(220, 23)
+        Me.PasswordLabel.TabIndex = 2
+        Me.PasswordLabel.Text = "&Password"
+        Me.PasswordLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'Button1
+        'UsernameTextBox
         '
-        Me.Button1.Location = New System.Drawing.Point(138, 152)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 4
-        Me.Button1.Text = "LOGIN"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.UsernameTextBox.Location = New System.Drawing.Point(174, 44)
+        Me.UsernameTextBox.Name = "UsernameTextBox"
+        Me.UsernameTextBox.Size = New System.Drawing.Size(220, 23)
+        Me.UsernameTextBox.TabIndex = 1
+        '
+        'PasswordTextBox
+        '
+        Me.PasswordTextBox.Location = New System.Drawing.Point(174, 101)
+        Me.PasswordTextBox.Name = "PasswordTextBox"
+        Me.PasswordTextBox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.PasswordTextBox.Size = New System.Drawing.Size(220, 23)
+        Me.PasswordTextBox.TabIndex = 3
+        '
+        'OK
+        '
+        Me.OK.Location = New System.Drawing.Point(197, 161)
+        Me.OK.Name = "OK"
+        Me.OK.Size = New System.Drawing.Size(94, 23)
+        Me.OK.TabIndex = 4
+        Me.OK.Text = "&OK"
+        '
+        'Cancel
+        '
+        Me.Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.Cancel.Location = New System.Drawing.Point(300, 161)
+        Me.Cancel.Name = "Cancel"
+        Me.Cancel.Size = New System.Drawing.Size(94, 23)
+        Me.Cancel.TabIndex = 5
+        Me.Cancel.Text = "&Cancel"
         '
         'FormLoginWarehouse
         '
+        Me.AcceptButton = Me.OK
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(300, 235)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Button1)
+        Me.CancelButton = Me.Cancel
+        Me.ClientSize = New System.Drawing.Size(401, 192)
+        Me.Controls.Add(Me.Cancel)
+        Me.Controls.Add(Me.OK)
+        Me.Controls.Add(Me.PasswordTextBox)
+        Me.Controls.Add(Me.UsernameTextBox)
+        Me.Controls.Add(Me.PasswordLabel)
+        Me.Controls.Add(Me.UsernameLabel)
+        Me.Controls.Add(Me.LogoPictureBox)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "FormLoginWarehouse"
-        Me.Text = "LOGIN"
+        Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
+        Me.Text = "FormLoginWarehouse"
+        CType(Me.LogoPictureBox, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Label1 As Label
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Button1 As Button
 End Class
