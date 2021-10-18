@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class FormulirDataDiriPelanggan
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class FormulirDataDiriPelanggan
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -32,6 +32,7 @@ Partial Class FormulirDataDiriPelanggan
         Me.Button1 = New System.Windows.Forms.Button()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -66,9 +67,9 @@ Partial Class FormulirDataDiriPelanggan
         Me.Label4.AutoSize = True
         Me.Label4.Location = New System.Drawing.Point(12, 9)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(256, 15)
+        Me.Label4.Size = New System.Drawing.Size(113, 15)
         Me.Label4.TabIndex = 3
-        Me.Label4.Text = "Silahkan Isi Data Diri Sebelum Checkout Barang"
+        Me.Label4.Text = "Silahkan Isi Data Diri"
         '
         'TextBox1
         '
@@ -93,9 +94,9 @@ Partial Class FormulirDataDiriPelanggan
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(188, 160)
+        Me.Button1.Location = New System.Drawing.Point(117, 158)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(87, 30)
+        Me.Button1.Size = New System.Drawing.Size(72, 30)
         Me.Button1.TabIndex = 7
         Me.Button1.Text = "OK"
         Me.Button1.UseVisualStyleBackColor = True
@@ -117,11 +118,21 @@ Partial Class FormulirDataDiriPelanggan
         Me.Label5.TabIndex = 8
         Me.Label5.Text = "ID :"
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(195, 158)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(80, 30)
+        Me.Button2.TabIndex = 10
+        Me.Button2.Text = "Cancel"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'FormulirDataDiriPelanggan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(285, 236)
+        Me.ClientSize = New System.Drawing.Size(285, 194)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.TextBox4)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Button1)
@@ -149,4 +160,5 @@ Partial Class FormulirDataDiriPelanggan
     Friend WithEvents Button1 As Button
     Friend WithEvents TextBox4 As TextBox
     Friend WithEvents Label5 As Label
+    Friend WithEvents Button2 As Button
 End Class
