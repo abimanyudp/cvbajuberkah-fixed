@@ -118,6 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="istockphoto-1212719772-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\istockphoto-1212719772-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="businessman-checking-packages_61103-631" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\businessman-checking-packages_61103-631.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="background menu utama" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\background menu utama.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -127,13 +133,10 @@
   <data name="T-SHIRT" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\T-SHIRT.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="istockphoto-1212719772-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\istockphoto-1212719772-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="buktitransfer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\buktitransfer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="businessman-checking-packages_61103-631" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\businessman-checking-packages_61103-631.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="0-3363_shopping-cart-family-clip-art-shopping-for-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\0-3363_shopping-cart-family-clip-art-shopping-for-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
