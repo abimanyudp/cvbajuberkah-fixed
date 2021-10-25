@@ -7,11 +7,11 @@ Module koneksi
     Public DM As OleDbDataReader
     Sub koneksiDB()
         Try
-            Conn = New OleDbConnection("provider=microsoft.ace.oledb.12.0; data source =Travel.accdb")
+            Conn = New OleDbConnection("provider=microsoft.ace.oledb.12.0; data source=cvbajuberkah.accdb")
             Conn.Open()
-            'MsgBox("Connected")
+            MessageBox.Show("Connected")
         Catch ex As Exception
-            MsgBox(ex.Message)
+            MessageBox.Show(ex.Message)
         End Try
     End Sub
 End Module
