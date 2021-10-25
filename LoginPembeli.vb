@@ -10,6 +10,8 @@ Public Class LoginPembeli
 
     Private Sub OK_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles OK.Click
         Me.Close()
+        Dim c = New FormPilihPakaian
+        c.Show()
     End Sub
 
     Private Sub Cancel_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Cancel.Click

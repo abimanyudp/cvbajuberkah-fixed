@@ -104,6 +104,7 @@ Partial Class FormulirDataDiriPelanggan
         'TextBox4
         '
         Me.TextBox4.BackColor = System.Drawing.SystemColors.InactiveCaption
+        Me.TextBox4.Enabled = False
         Me.TextBox4.Location = New System.Drawing.Point(101, 27)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(174, 23)
